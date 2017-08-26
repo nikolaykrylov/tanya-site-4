@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="77a5e16e-369b-4998-bef2-59d1cf73a63d" name="ihc" url="http://camarad.p337815.for-test-only.ru">
+        <fileTransfer host="camarad.p337815.for-test-only.ru" port="21" username="p337815_camarad">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
