@@ -182,25 +182,12 @@ body {
   font-family: 'aBosaNova';
   font-size: 28px; }
 
-.footer_content {
-  position: relative; }
-  .footer_content .logo_bottom {
-    margin-left: 35px;
-    margin-top: 10px; }
-  .footer_content .my-column-1, .footer_content .my-column-2, .footer_content .my-column-3, .footer_content .my-column-4, .footer_content .my-column-5, .footer_content .my-column-6 {
-    margin-top: 17px; }
-  .footer_content .my-column-1 {
-    margin-left: 20px; }
-  .footer_content .my-column-2 {
-    margin-left: -80px; }
-  .footer_content .my-column-3 {
-    margin-left: -60px; }
-  .footer_content .my-column-4 {
-    margin-left: -90px; }
-  .footer_content .my-column-5 {
-    margin-left: -50px; }
-  .footer_content .my-column-6 {
-    margin-left: -85px; }
+.foot {
+  margin: auto; }
+  .foot div {
+    display: inline-block;
+    float: left;
+    margin-left: 5%; }
 
 .footer-buttons {
   font-size: 14px;
