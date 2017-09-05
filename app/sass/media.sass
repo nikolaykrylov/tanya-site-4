@@ -9,6 +9,15 @@
     margin-right: 5%
   .section_3
     height: 1185px
+  .footer_content
+    width: 1400px
+    margin-left: 50px
+
+@media (min-width: 1400px)
+  .footer-content
+    width: 1400px
+    margin-left: 10%
+
 
 /* Large Devices, Wide Screens */
 @media (max-width: 1200px)
@@ -44,10 +53,8 @@
   .section_3
     height: 1190px
   .footer_content
-    width: 960px
-  .my-column-2
-    p
-      margin-left: 20px
+    width: 1150px
+    margin: auto
 
 @media only screen and (max-width: 1130px)
   .logo
@@ -58,8 +65,6 @@
     margin-left: 30px
   .about_rectangle
     margin-left: 10px
-  .footer_content
-    width: 960px
   .header_rectangle_1, .header_rectangle_2, .header_rectangle_3
     margin-left: 645px
     width: 300px
@@ -74,9 +79,6 @@
       margin-left: 80px
   .text_1, .text_2, .text_3, .text_4
     margin-right: 3%
-  .my-column-2
-    p
-      margin-left: 20px
 
 /* Medium Devices, Desktops */
 
@@ -105,124 +107,196 @@
     margin-right: -13%
   .header_rectangle_1, .header_rectangle_2, .header_rectangle_3
     margin-left: 480px
-
-  //.text_1, .text_2, .text_3, .text_4
-  //  margin-left: 50px
   .section_2
     height: 1100px
-  //.rectangle_2
-  //  margin-top: 375px
-  //.rectangle_3
-  //  margin-top: 155px
-  //.rectangle_4
-  //  margin-top: 107px
   .section_3
     height: 1190px
   .section_4
     height: 720px
   .content
     margin-left: -40px
-  //.prices
-  //  margin-top: 21px
   .price_description
     width: 730px
   .footer_content
-    margin-left: 50px
-    .col-sm-1:last-of-type
-        margin-left: -50px
-    width: 860px
-    .logo_bottom
-      margin-left: -30px
-    .my-column-1
-      margin-left: -20px
-    .my-column-2
-      margin-left: -89px
-    .my-column-4
-      margin-left: -62px
-    .my-column-6
-      margin-left: -33px
-  .footer
-    height: 250px
-  .foot
-    margin-left: 40px
-  .logo
-    margin-left: -10px
-  .top_soc_buttons
-    margin-left: 150px
-  .footer_content
-    margin-left: -3%
-
-@media (max-width: 967px)
-  .footer_content
-    //width: 920px
-    margin: 0 auto
-
-
-
-
+    width: 900px
+    margin-left: -100px
 @media (max-width: 920px)
+  .footer_content
+    width: 100%
+    margin: auto
   .boxes-
     width: 33%
   .lang-wrapper
     margin-right: -5%
   .section_3
     height: 1600px
-@media only screen and (max-width: 870px)
-  //.text_1, .text_2, .text_3, .text_4
-  //  width: 95%
-  //  margin-left: 20px
-
-  .rectangle_1, .rectangle_2, .rectangle_3, .rectangle_4
-    margin-left: 1px
-
+@media only screen and (max-width: 860px) and (min-width: 481px)
   .section_2
     height: 1350px
-
-  .price_description
-    width: 600px
-  .footer
-    height: 250px
   .logo
     margin-left: -10px
+    font-size: 22px
+  .logo_bottom
+    font-size: 22px
   .top_soc_buttons
-    margin-left: 150px
-  .footer_content
-    width: 770px
-    //margin-left: 30px
-    margin: 0 auto
-  .my-column-6
-    margin-right: -60px
-    width: 40px
-
-
-
-@media only screen and (max-width: 768px)
-  .section_2
-    height: 1350px
-  .rectangle_1, .rectangle_2, .rectangle_3, .rectangle_4
-    margin-left: 1px
-  .text_1, .text_2, .text_3, .text_4
-    width: 95%
-    margin-left: 20px
-  .header_rectangle_1, .header_rectangle_2, .header_rectangle_3
-    margin-left: 60%
-  //.price_description
-  //  width: 70%
-  //  margin-left: 20%
+    margin-left: 111px
+    margin-top: -14px
+    font-size: 18px
+  .fa-envelope
+    font-size: 15px
+  .top_phone
+    font-size: 20px
+    margin-top: 7px
+  .languages
+    font-size: 16px
+    margin-left: 105px
+    margin-top: 10px
+  .fa-bars
+    display: block
+    margin-left: -72px
+    margin-top: -19px
+  .main_head
+    max-height: 71px
   .top_menu_items
     display: none
+  .rectangle_1, .rectangle_2, .rectangle_3, .rectangle_4
+    position: absolute
+    margin-left: -15px
+    p
+      padding-top: 0px
+  .text_1, .text_2, .text_3, .text_4
+    margin-top: 110px
+    width: 95%
+  .text_4
+    margin-top: 120px
 
-  .footer
-    height: 250px
-  //.text_1, .text_2, .text_3, .text_4
-  //  width: 500px
-@media (max-width: 640px)
+@media (max-width: 600px)
   .boxes-
+    width: 50%
+  .o, .p, .v, .s, .t, .u, .f, .h, .che, .swe, .est, .jp
+    display: none
+
+
+
+//@media only screen and (max-width: 768px)
+//  .top_menu_items
+//    display: none
+//  .boxes-
+//    width: 50%
+//
+//@media (max-width: 640px)
+//  .boxes-
+//    width: 100%
+//    margin-left: 20%
+
+@media only screen and (max-width: 480px) and (min-width: 321px)
+  .wrapper
+    min-width: 480px
+  .hidden
+    display: none
+  .logo
+    margin-left: 5px
+  .main_head
+    max-height: 50px
+    .logo_bottom, span, .top_soc_buttons, .top_phone, .top_menu_items
+      display: none
+  .languages
+    a
+      display: none
+  .section_1
+    height: 570px
     width: 100%
-    margin-left: 20%
+    .about_text
+      margin-top: 30px
+      margin-left: 13px
+      width: 430px
+    .about_rectangle
+      margin-top: 316px
+      width: 440px
+      height: 190px
+      margin-left: 3px
+  .main_mnu_button
+    margin-left: 150px
+    margin-top: -120px
+    float: right
+  .fa-bars
+    color: #cda845
+    font-size: 27px
+  .img_sect_1
+    background-image: url(../img/sect_1_bg_soft_borders.jpg)
+    height: 300px
+    width: 129%
+    -webkit-background-size:
+    background-size: 120%
+    margin-left: -92px
+    margin-top: -16px
+  .section_1
+    img
+      margin-left: 20px
+  .section_2
+    height: 1500px
+  .text_1, .text_2, .text_3, .text_4
+    width: 430px
+  .header_rectangle_1, .header_rectangle_2, .header_rectangle_3
+    margin-left: 147px
+    width: 140px
+    p
+      margin-left: 18px
+      font-size: 18px
+      padding-top: 13px
+  .header_rectangle_1
+    margin-top: 15px
+  .header_rectangle_2
+    margin-left: 323px
+    p
+      margin-left: 45px
+  .header_rectangle_3
+    margin-left: 323px
+    p
+      padding-top: 1px
+      margin-left: 37px
+  .rectangle_1, .rectangle_2, .rectangle_3, .rectangle_4
+    margin-left: -6%
+    width: 160px
+    p
+      margin-left: 45px
+  .rectangle_3
+    p
+      padding-top: 2px
+      margin-left: 26px
+  .rectangle_4
+    p
+      margin-left: 17px
+  .section_3
+    height: 1950px
+  .boxes-
+    width: 90%
+    margin-left: 10%
+  .section_4
+    height: 730px
+  .price_description
+    width: 380px
+    margin-left: 40px
+  .footer
+    height: 350px
+  .content
+    .prices
+      margin-left: 80px
+      p:first-child
+        margin-top: 358px
+      p:nth-child(2)
+        margin-top: 59px
+      p:nth-child(3)
+        margin-top: 63px
+      p:nth-child(4)
+        margin-top: 43px
+      p:nth-child(5)
+        margin-top: 39px
 
 /* Small Devices, Phones */
 @media only screen and (max-width: 320px)
+  .hidden
+    display: none
   .logo
     margin-left: 5px
   .main_head
@@ -237,7 +311,7 @@
     width: 100%
     .about_text
       margin-top: -38px
-      margin-left: 20px
+      margin-left: 13px
       width: 280px
     .about_rectangle
       margin-top: 280px
@@ -261,7 +335,11 @@
     margin-top: 16px
   .section_1
     img
-     display: none
+     margin-left: 20px
+  .section_2
+    height: 2000px
+  .text_1, .text_2, .text_3, .text_4
+    width: 260px
   .header_rectangle_1, .header_rectangle_2, .header_rectangle_3
     margin-left: 147px
     width: 140px
@@ -270,43 +348,57 @@
       font-size: 18px
       padding-top: 13px
   .header_rectangle_1
-    margin-top: 15px
+    //margin-top: 15px
+    display: none
   .header_rectangle_2
-    margin-left: 147px
+    margin-left: 163px
     p
-      margin-left: 53px
+      margin-left: 45px
+  .header_rectangle_3
+    margin-left: 163px
+    p
+      padding-top: 1px
+      margin-left: 37px
   .rectangle_1, .rectangle_2, .rectangle_3, .rectangle_4
+    margin-left: -6%
     width: 160px
     p
       margin-left: 34px
-  //.rectangle_2
-  //  margin-top: 200px
-  //.rectangle_3
-  //  margin-top: 159px
-  //  p
-  //    line-height: 95%
-  //    font-size: 90%
-  //    padding-top: 10px
-  //.rectangle_4
-  //  margin-top: 190px
-  //  p:last-of-type
-  //      margin-left: 13px
-  //.text_1
-  //  margin-top: -762px
-  //  margin-left: 33px
-  //.text_2
-  //  margin-top: 110px
-  //  margin-left: 33px
-  //.text_3
-  //  margin-top: 75px
-  //  margin-left: 33px
-  //.text_4
-  //  margin-left: 33px
-  //  margin-top: 115px
-  //.hide_text_1, .hide_text_2, .hide_text_3, .hide_text_4
-  //  display: none
-  .lang-column-1
-    margin-left: 20px
+  .rectangle_3
+    p
+      padding-top: 2px
+      margin-left: 26px
+  .rectangle_4
+    p
+      margin-left: 12px
+  .section_3
+    height: 1150px
+  .boxes-
+    width: 100%
+    margin-left: 13%
+  .k, .l, .m, .n
+    display: none
+  .section_4
+    height: 1000px
+  .price_description
+    width: 220px
+    margin-left: 40px
+  .footer
+    height: 400px
+  .content
+    .prices
+      margin-left: -110px
+      p:first-child
+        margin-top: 385px
+      p:nth-child(2)
+        margin-top: 150px
+      p:nth-child(3)
+        margin-top: 82px
+      p:nth-child(4)
+        margin-top: 150px
+      p:nth-child(5)
+        margin-top: 59px
+
 
 
 

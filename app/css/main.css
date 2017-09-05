@@ -133,12 +133,11 @@ body {
   margin-top: 60px; }
 
 .section_3 {
-  background-image: url(../img/sect_3_bg.jpg);
   height: 1090px;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   -webkit-background-size: contain;
   background-size: contain;
-  background-position: center;
+  background-position: top;
   background-color: #3B3539; }
 
 .section_4 {
@@ -182,21 +181,21 @@ body {
   font-family: 'aBosaNova';
   font-size: 28px; }
 
-.foot {
+.footer_content {
   margin: auto; }
-  .foot div {
+  .footer_content div {
     display: inline-block;
     float: left;
     margin-left: 5%; }
 
+.footer-box-1 {
+  margin-top: 7px; }
+
 .footer-buttons {
-  font-size: 14px;
-  margin-left: -50px; }
-  .footer-buttons .fa {
+  padding-left: 0px; }
+  .footer-buttons li {
     display: inline-block;
-    margin-left: 10px; }
-  .footer-buttons ul li {
-    display: inline-block; }
+    margin-right: 15px; }
 
 .boxes- {
   width: 20%;
