@@ -222,7 +222,8 @@
       font-size: 18px;
       padding-top: 13px; }
   .header_rectangle_1 {
-    margin-top: 15px; }
+    margin-top: 15px;
+    display: none; }
   .header_rectangle_2 {
     margin-left: 323px; }
     .header_rectangle_2 p {
@@ -243,10 +244,12 @@
   .rectangle_4 p {
     margin-left: 17px; }
   .section_3 {
-    height: 1950px; }
+    height: 1150px; }
   .boxes- {
     width: 90%;
-    margin-left: 10%; }
+    margin-left: 22%; }
+  .k, .l, .m, .n {
+    display: none; }
   .section_4 {
     height: 730px; }
   .price_description {
@@ -265,7 +268,9 @@
     .content .prices p:nth-child(4) {
       margin-top: 43px; }
     .content .prices p:nth-child(5) {
-      margin-top: 39px; } }
+      margin-top: 39px; }
+  .content2 {
+    width: 50%; } }
 
 /* Small Devices, Phones */
 @media only screen and (max-width: 320px) {
